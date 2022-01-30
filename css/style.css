@@ -1,0 +1,80 @@
+html, body {
+    background: #537d8e;
+    color: #f2ecdf;
+    height: 100%;
+    font-size: 14px;
+    font-family: "Arial";
+    font-weight: 400;
+}
+.wrapper {
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+._container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+/* HEADER */
+.header {
+    text-align: center;
+    background: #2e3e4b;
+    margin: 0 0 10px 0;
+}
+.header h1 {
+    font-size: 32px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+/* FIELD */
+.page__container {
+    text-align: center;
+}
+.page h2 {
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: 500;
+    margin: 0 0 10px 0;
+}
+.page__score {
+    font-size: 44px;
+}
+.page__players {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 10px 0;
+}
+.page__column {
+    width: 200px;
+    height: 200px;
+    background: #224656;
+    padding: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 120%;
+}
+.page__players > *:not(:last-child) {
+    margin: 0 30px 0 0;
+}
+.page__item {
+    margin: 20px 0 0 0;
+    width: 150px;
+}
+button {
+    width: 97px;
+    height: 32px;
+    background: #2e3e4b;
+    color: #f2ecdf;
+    box-shadow: 0px 4px 1px #211522;
+    position: relative;
+    top: 0;
+}
+button:active {
+    box-shadow: 0px 2px 1px #211522;
+    top: 2px;
+}
+.page__buttons > *:not(:last-child) {
+    margin: 0 20px 0 0;
+}
